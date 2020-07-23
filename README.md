@@ -14,4 +14,4 @@ const { a, ...noA } = myObject;
 console.log(noA); // => { b: 2, c: 3 }
 ```
 
-Source: [codeburst.io](https://codeburst.io/use-es2015-object-rest-operator-to-omit-properties-38a3ecffe90)
+_Source: [codeburst.io](https://codeburst.io/use-es2015-object-rest-operator-to-omit-properties-38a3ecffe90)_
