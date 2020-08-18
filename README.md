@@ -51,6 +51,8 @@ The above would return:
 [{ label: 'greeting', value: 'Hello World' }, { label: 'greeting', value: 'Hey there' }, { label: 'greeting', value: 'Hello good person!' }]
 ```
 
+_Source: [tutsmake.com](https://www.tutsmake.com/javascript-remove-duplicate-objects-from-array/)
+
 ### Mixed
 
 Get select keys and values from either an object or an array:
