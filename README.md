@@ -72,7 +72,9 @@ Get select keys and values from either an object or an array:
 
 ``` js
 function getSome (original, desired) {
-  const cleaned = (original && typeof original === 'object' && original.constructor === Array) ? Object.assign({}, ...original) : original
+  const cleaned = (original && typeof original === 'object' && original.constructor === Array) 
+    ? Object.assign({}, ...original)
+    : original
 
   return desired.reduce((obj, key) => ({ ...obj, [key]: cleaned[key] }), {})
 }
